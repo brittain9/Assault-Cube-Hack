@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{5a4fe51e-5662-431e-827c-4337615faa38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{79fa8ff2-161c-4d59-862c-e2143dcfc78e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scan">
+      <UniqueIdentifier>{87ccb8ed-9408-468e-9b7f-3b67b2246fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL Text">
+      <UniqueIdentifier>{6e96a0b2-e3b3-4e36-b54b-d7098855ca24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL Draw">
+      <UniqueIdentifier>{ff147c6f-38e3-47db-a250-366ba4551f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geom">
+      <UniqueIdentifier>{7fd38009-b55a-4f4f-b4eb-7abf5763d224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="esp">
+      <UniqueIdentifier>{ee160d18-db20-494c-b2f9-f35fae29e358}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mem.h">
+      <Filter>mem</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="scan.h">
+      <Filter>scan</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdll.h">
+      <Filter>scan</Filter>
+    </ClInclude>
+    <ClInclude Include="gldraw.h">
+      <Filter>OpenGL Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="gltext.h">
+      <Filter>OpenGL Text</Filter>
+    </ClInclude>
+    <ClInclude Include="assaultcube.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geom.h">
+      <Filter>geom</Filter>
+    </ClInclude>
+    <ClInclude Include="esp.h">
+      <Filter>esp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
+    <ClCompile Include="hook.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="scan.cpp">
+      <Filter>scan</Filter>
+    </ClCompile>
+    <ClCompile Include="gldraw.cpp">
+      <Filter>OpenGL Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="gltext.cpp">
+      <Filter>OpenGL Text</Filter>
+    </ClCompile>
+    <ClCompile Include="geom.cpp">
+      <Filter>geom</Filter>
+    </ClCompile>
+    <ClCompile Include="esp.cpp">
+      <Filter>esp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
